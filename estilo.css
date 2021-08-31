@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 900px;  
+}
+
+.Container{
+    margin: 20px auto 10px auto;
+    width: 1240px;
+    position: relative;
+}
+
+.Header{
+    width: 1250;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    font-size: 50px;
+    color: #fffffe;
+    text-align: center;
+    background-image: url(/img/header.jpeg);
+    background-size: cover;
+}
+
+.Artigo{
+    width: 75%;
+    display: inline-block;
+    float:left;
+}
+.Texto_artigo{
+    text-align: justify;
+    margin: 20px 0;
+    padding: 20px;
+    display:flex;
+}
+h1, h2{
+    color: #daac17;
+    padding-left: 20px;
+}
+h1{
+    font-size: 25px; 
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.Artigo img{
+    width: 80%;
+    height: 60%;
+    padding-left: 20px;
+}
+
+.Other_posts{
+    width: 25%;
+    display: inline-block;
+}
+
+.Other_posts img{
+   width: 95%;
+   height: 250px;
+   padding-left: 20px;  
+}
+.Blog_post{
+    margin-bottom: 50px;
+}
+.Blog_post p{
+    margin-left: 20px;
+	text-align: justify;
+}
+
+.other-title{
+    width: 16px;
+	color: #daac17;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding-left:20px;
+}
+
+.social-link{
+	width: 30px;
+	height: 30px;
+	margin:  15px;
+}
+
+.social-media{
+	position: fixed;
+	bottom: 15px;
+	right: 2px;		
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(121, 85, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #daac17;
+}
